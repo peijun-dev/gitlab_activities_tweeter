@@ -17,4 +17,5 @@ urlpatterns = [
         },
         name='logout'),
     url(r'^temp/$', views.temp, name='temp'),
+    url(r'^gitlab/$', views.private name='gitlab')
 ]
