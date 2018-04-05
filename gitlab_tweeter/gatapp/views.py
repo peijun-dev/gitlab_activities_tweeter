@@ -4,6 +4,14 @@ from django.shortcuts import render
 
 from django.http import HttpResponse
 from django.template import loader
+from django.contrib.auth.decorators import login_required
+
 
 def index(request):
     return render(request, 'gatapp/index.html')
+
+def temp(request):
+    return render(request, 'gatapp/temp.html')
+
+def private(request):
+    return render(request, 'gatapp/gitlab.html')

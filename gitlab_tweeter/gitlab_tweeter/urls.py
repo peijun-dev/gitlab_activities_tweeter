@@ -19,5 +19,6 @@ from django.conf.urls import url, include
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    url('gatapp/', include('gatapp.urls'))
+    url('gatapp/', include('gatapp.urls')),
+    url(r'', include('social_django.urls', namespace = 'social')),
 ]
