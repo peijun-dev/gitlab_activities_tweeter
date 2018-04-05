@@ -16,5 +16,4 @@ urlpatterns = [
             'template_name': 'gatapp/logout.html',
         },
         name='logout'),
-    url('temp', views, name='temp'),
 ]
