@@ -139,7 +139,7 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
-LOGIN_REDIRECT_URL = '/temp/'
+LOGIN_REDIRECT_URL = '/gatapp/gitlab/'
 LOGIN_URL = '/login/'
 
 SOCIAL_AUTH_TWITTER_KEY = os.environ.get("CONSUMER_KEY")

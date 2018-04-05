@@ -13,6 +13,5 @@ def index(request):
 def temp(request):
     return render(request, 'gatapp/temp.html')
 
-@login_required
 def private(request):
     return render(request, 'gatapp/gitlab.html')
